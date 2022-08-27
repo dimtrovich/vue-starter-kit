@@ -1,15 +1,30 @@
 {
   "name": "starter-kit",
   "version": "0.1.0",
+  "description": "Le kit de base pour le développement de mes applications",
   "private": true,
+  "author": {
+    "email": "devcode.dst@gmail.com",
+    "name": "Dimitri Sitchet Tomkeu"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.5.2",
+    "bootstrap-vue": "^2.17.3",
+    "dayjs": "^1.11.5",
+    "php-in-js": "^1.0.4",
+    "popper.js": "^1.16.1",
+    "portal-vue": "^2.1.7",
     "register-service-worker": "^1.7.2",
     "vue": "^2.6.14",
+    "vue-form-wizard": "^0.8.4",
+    "vue-page-transition": "^0.2.2",
     "vue-router": "^3.5.1",
+    "vue2-daterange-picker": "^0.6.8",
     "vuex": "^3.6.2"
   },
   "devDependencies": {
@@ -17,6 +32,10 @@
     "@vue/cli-plugin-router": "~5.0.0",
     "@vue/cli-plugin-vuex": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
+    "sass": "^1.26.11",
+    "sass-loader": "^10.0.2",
+    "vue-cli-plugin-axios": "~0.0.4",
+    "vue-cli-plugin-bootstrap-vue": "~0.8.2",
     "vue-template-compiler": "^2.6.14"
   }
 }
