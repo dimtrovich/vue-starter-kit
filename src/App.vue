@@ -1,32 +1,58 @@
 <template>
-  <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
-    <router-view/>
-  </div>
+  	<div id="app">
+		<component :is="layout">
+			<vue-page-transition name="fade-in-right">
+				<router-view/>
+			</vue-page-transition>
+  		</component>
+	</div>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+import { VuePageTransition }from 'vue-page-transition'
+import { findLocale } from './helpers/utils'
 
-nav {
-  padding: 30px;
-}
+import DefaultLayout from './layouts/DefaultLayout.vue'
+import EmptyLayout from './layouts/EmptyLayout.vue'
 
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
+export default {
+	components: {
+		VuePageTransition,
+		DefaultLayout, EmptyLayout
+	},
+  	computed: {
+	  	layout() {
+			let layout = 'empty'
 
-nav a.router-link-exact-active {
-  color: #42b983;
+			const meta = this.$route.meta
+			if (meta && meta.layout) {
+				layout = meta.layout
+			}
+
+			return `${layout}-layout`
+		}
+  	},
+	
+	beforeMount() {
+		this.$i18n.locale = findLocale()
+	},
+  	mounted() {
+		this.detectChangeLang()
+  	},
+	updated() {
+		this.detectChangeLang()
+	},
+
+	methods: {
+		/**
+		 * Detecte le changement de langue et met à jour le localstorage
+		 */
+		detectChangeLang() {
+			this.$root.$on('locale:change', (lang) => {
+				$storage.local.set('locale', lang)
+				this.$i18n.locale = lang
+			})
+		}
+	}
 }
-</style>
+</script>
