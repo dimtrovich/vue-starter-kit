@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import { VuePageTransition }from 'vue-page-transition'
+import { VuePageTransition } from 'vue-page-transition'
 import { findLocale } from './helpers/utils'
 
 import DefaultLayout from './layouts/DefaultLayout.vue'

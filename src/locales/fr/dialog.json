@@ -1,3 +1,23 @@
 {
-	"votre_session_est_expiree__veuillez_vous_reconnecter": "Votre session est expirée. Veuillez vous reconnecter"
+	"affichage_de_x_y_sur_z_elements": "Affichage de {x} - {y} sur {z} éléments",
+	"annuler": "Annuler",
+	"aucun_resultat": "Aucun résultat",
+	"aucun_resultat_trouver_pour": "Aucun résultat trouvé pour",
+	"chargement": "Chargement...",
+	"deconnexion": "Déconnexion",
+	"erreur": "Erreur",
+	"erreur_de_connexion_au_serveur": "Erreur de connexion au serveur",
+	"fermer": "Fermer",
+	"impossible_de_recuperer_les_donnees": "Impossible de recupérer les données",
+	"impression": "Impression",
+    "imprimer": "Imprimer",
+	"mon_profil": "Mon profil",
+	"non": "Non",
+	"oui": "Oui",
+	"reessayer": "Ré-essayer",
+	"succes": "Succès",
+	"suivant": "Suivant",
+	"valider": "Valider",
+	"votre_session_est_expiree__veuillez_vous_reconnecter": "Votre session est expirée. Veuillez vous reconnecter",
+	"voulez_vous_vraiment_vous_deconnecter": "Voulez-vous vraiment vous déconnecter"
 }

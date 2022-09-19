@@ -1,0 +1,31 @@
+{
+	"aujourdhui": "Today",
+	"ce_mois": "This month",
+	"cette_annee": "This year",
+	"cette_semaine": "This week",
+	"hier": "Yersteday",
+	"l_annee_passer": "Last year",
+	"la_semaine_passer": "Last week",
+	"le_mois_passer": "Last month",
+	
+	"lun": "Mon",
+	"mar": "Tue",
+	"mer": "Wed",
+	"jeu": "Thu",
+	"ven": "Fri",
+	"sam": "Sat",
+	"dim": "Sun",
+
+	"janv": "Jan",
+	"fevr": "Feb",
+	"mars": "Mar",
+	"avr": "Apr",
+	"mai": "May",
+	"juin": "Jun",
+	"juil": "Jul",
+	"aout": "Aug",
+	"sept": "Sep",
+	"oct": "Oct",
+	"nov": "Nov",
+	"dec": "Dec"
+}

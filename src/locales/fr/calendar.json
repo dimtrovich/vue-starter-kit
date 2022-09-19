@@ -1,0 +1,31 @@
+{
+	"aujourdhui": "Aujourd'hui",
+	"ce_mois": "Ce mois",
+	"cette_annee": "Cette année",
+	"cette_semaine": "Cette semaine",
+	"hier": "Hier",
+	"l_annee_passer": "L'année passée",
+	"la_semaine_passer": "La semaine passée",
+	"le_mois_passer": "Le mois passé",
+	
+	"lun": "Lun",
+	"mar": "Mar",
+	"mer": "Mer",
+	"jeu": "Jeu",
+	"ven": "Ven",
+	"sam": "Sam",
+	"dim": "Dim",
+
+	"janv": "Janv",
+	"fevr": "Févr",
+	"mars": "Mars",
+	"avr": "Avr",
+	"mai": "Mai",
+	"juin": "Juin",
+	"juil": "Juil",
+	"aout": "Août",
+	"sept": "Sept",
+	"oct": "Oct",
+	"nov": "Nov",
+	"dec": "Déc"
+}

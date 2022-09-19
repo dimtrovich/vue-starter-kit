@@ -1,3 +1,23 @@
 {
-	"votre_session_est_expiree__veuillez_vous_reconnecter": "Your session has expired. Please sign in again"
+	"affichage_de_x_y_sur_z_elements": "Showing {x} - {y} of {z} items",
+	"annuler": "Cancel",
+	"aucun_resultat": "No results",
+	"aucun_resultat_trouver_pour": "No results found for",
+	"chargement": "Loading...",
+	"deconnexion": "Logout",
+	"erreur": "Error",
+	"erreur_de_connexion_au_serveur": "Server connection error",
+	"fermer": "Close",
+	"impossible_de_recuperer_les_donnees": "Unable to retrieve data",
+	"impression": "Printing",
+    "imprimer": "Print",
+	"mon_profil": "My profile",
+	"non": "No",
+	"oui": "Yes",
+	"reessayer": "Retry",
+	"succes": "Success",
+	"suivant": "Next",
+	"valider": "Valid",
+	"votre_session_est_expiree__veuillez_vous_reconnecter": "Your session has expired. Please sign in again",
+	"voulez_vous_vraiment_vous_deconnecter": "Are you sure you want to sign out"
 }
